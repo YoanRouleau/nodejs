@@ -11,6 +11,8 @@ $ git status
 
 ``` -->
 
+### Part 1 - myUC
+
 1.	In ``htdocs/nodejs`` create a new project folder called ``myUC``
 
 1.	Create a ``package.json`` file for the new project using ``npm init`` command
@@ -44,4 +46,15 @@ $ git status
     $
     ```
 
+### Part 2 - Dice
 
+Create an new project folder called `dice`.  In the project use the npm package [dice-random](https://www.npmjs.com/package/dice-random) to print random values from 1 to 6.  e.g.
+
+```
+$ node index.js
+1
+$ node index.js
+3
+$ node index.js
+6
+```
